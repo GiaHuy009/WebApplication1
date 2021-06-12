@@ -1,0 +1,57 @@
+﻿ul{
+    list-style:none;
+}
+li{
+    list-style:none
+}
+divmenu > ul{
+    float: left;
+}
+.menu{
+    margin:auto;
+    position: relative;
+    height: 100px;
+    width: 60vh;
+}
+.parentul > li{
+    float: left;
+    margin: 30px;
+}
+.parentul > li > ul{
+    background-color:red;
+}
+    .parentul > li > ul{
+        position:absolute;
+        display:none;
+    }
+    .parentul >li:hover > ul{
+        display:block;
+    }
+.maindiv{
+    width:1105px;
+    margin:auto;
+    display:flex;
+}
+    .maindiv > div:first-child{
+        width :780px;
+    }
+    .maindiv > div:last-child{
+        width:320px;
+    }
+.bignews{
+    display:flex;
+}
+    .bignews > div:first-child{
+        width:60%
+    }
+        .bignews > div:first-child > image{
+            width: 100%;
+        }
+    .bignews > div:last-child{
+        width:35%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+.cangle{
+    float:left;
+}
